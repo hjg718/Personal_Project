@@ -43,7 +43,7 @@ public class MovieService {
 	            JSONObject jobj = new JSONObject();
 	            JSONParser jp = new JSONParser();
 	            jobj = (JSONObject)jp.parse(response.toString());
-	            long total = (Long)jobj.get("total");
+	            long total = (Long)jobj.get("display");
 	            JSONArray items = (JSONArray)jobj.get("items");
 	            ArrayList<MovieVO> arr = new ArrayList<MovieVO>();
 	            for(int i = 0 ; i< (int)total;i++){

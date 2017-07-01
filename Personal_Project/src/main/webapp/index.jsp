@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>zxz</title>
+<title>영화검색</title>
 <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script>
 </script>

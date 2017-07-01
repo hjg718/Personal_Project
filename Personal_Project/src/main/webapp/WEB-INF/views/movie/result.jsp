@@ -15,6 +15,14 @@
 <body>
 <c:forEach var="movie" items="${list }">
 ${movie.title }
+${movie.link }
+<img alt="" src="${movie.image}">
+${movie.subtitle }
+${movie.pubDate }
+${movie.director }
+${movie.actor }
+${movie.userRating }
+<hr>
 </c:forEach>
 </body>
 </html>
